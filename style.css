@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgb(250, 245, 230);
+    font-family:'Fraunces', serif;
+}
+
+.card{
+    display: block;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 15%;
+    width: 580px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card p {
+    color:rgb(139, 153, 153);
+}
+.card__images{
+    display: block;
+    float: left;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+}
+.card__images img {
+    height: 100%;
+    object-fit:cover;
+}
+.card__content{
+    position:relative;
+    display: block;
+    overflow: hidden;
+    width: 260px;
+}
+
+.card__content__text{
+    display: block;
+    position: relative;
+    top:10px;
+    overflow: hidden;
+    width: 270px;
+    height: 250px;
+}
+.card__content__price{
+    position: relative;
+    display:block;
+    top:20px;
+    height: 50px;
+    overflow: hidden;
+}
+.card__content__button{
+    position: relative;
+    display:block;
+    height: 80px;
+    top:25px;
+}
+.card__content__price h1{
+    display: inline;
+    color:rgb(60, 130, 110);
+}
+.card__content__price p{
+    position: relative;
+    bottom: 5px;
+    left:20px;
+    display: inline;
+    text-decoration: line-through;
+    font-size:small;
+    color:rgba(68, 65, 65, 0.568);
+}
+.card__content__button button{
+    background-color: rgb(60, 130, 110);
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    border:none;
+    color:white;
+}
